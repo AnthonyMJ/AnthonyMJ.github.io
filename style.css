@@ -1,18 +1,19 @@
 .hidden-links {
-	text-decoration: none;
-	color: #536482;		/* This is a comment, and this color is a greyish-blue */
+		text-decoration: none;
+		color: #536482;		/* This is a comment, and this color is a greyish-blue */
 }
 body{
-  background-image: url(Background.jpg);
+  	background-image: url(Background.jpg);
 }
 h1 {
+		background-color:rgba(0, 0, 0, 0.8);
     color: silver;
     font-size: 75px;
     text-align: center;
 }
 p {
-	background-color:rgba(0, 0, 0, 0.8);
-	color: #2962FF;
-  font-size: 40px;
-  text-align: left;
+		background-color:rgba(0, 0, 0, 0.8);
+		color: #2962FF;
+  	font-size: 40px;
+  	text-align: left;
 }
