@@ -17,3 +17,15 @@ p {
   	font-size: 40px;
   	text-align: left;
 }
+h2 {
+		background-color:rgba(0, 0, 0, 0.8);
+    color: silver;
+    font-size: 50px;
+    text-align: left;
+}
+p1 {
+		background-color:rgba(0, 0, 0, 0.8);
+		color: #2962FF;
+  	font-size: 30px;
+  	text-align: left;
+}
