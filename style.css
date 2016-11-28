@@ -11,6 +11,7 @@ h1 {
     text-align: center;
 }
 p {
+	background-color: GREY;
 	background-color: transparent;
   color: #2962FF;
   font-size: 40px;
