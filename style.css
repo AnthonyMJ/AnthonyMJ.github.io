@@ -11,10 +11,9 @@ h1 {
     text-align: center;
 }
 p {
-  background-color:rgba(255, 0, 0, 0.5);
-  
-
-  color: RED;
+	background-color:rgba(255, 0, 0, 0.5);
+	/*color: #2962FF;*/
+	color: red;
   font-size: 40px;
   text-align: left;
 }
