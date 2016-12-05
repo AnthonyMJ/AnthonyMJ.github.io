@@ -8,24 +8,24 @@ body{
 h1 {
 		background-color:rgba(0, 0, 0, 0.8);
     color: silver;
-    font-size: 7%;
+    font-size: 75%;
     text-align: center;
 }
 p {
 		background-color:rgba(0, 0, 0, 0.8);
 		color: #2962FF;
-  	font-size: 4%;
+  	font-size: 40%;
   	text-align: left;
 }
 h2 {
 		background-color:rgba(0, 0, 0, 0.8);
     color: silver;
-    font-size: 5%;
+    font-size: 50%;
     text-align: left;
 }
 p1 {
 		background-color:rgba(0, 0, 0, 0.8);
 		color: #2962FF;
-  	font-size: 3%;
+  	font-size: 30%;
   	text-align: left;
 }
