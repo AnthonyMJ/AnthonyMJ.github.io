@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Anthony Joy [CSE 199] Website</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <a class="hidden-links">
   </head>
-<body>
+  <body>
     <h1>The Tardigrade: A.K.A. The Water Bear!</h1>
       <h2>Water Bear Fun Facts</h2>
       <p>*Water Bears are the only known organisms who can survive in space
