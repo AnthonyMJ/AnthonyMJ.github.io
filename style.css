@@ -3,34 +3,55 @@
 		color: #536482;		/* This is a comment, and this color is a greyish-blue */
 }
 html {
-  font-family: Arial;
-  -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
+	font-family: Arial;
+ 	-webkit-text-size-adjust: 100%;
+		-ms-text-size-adjust: 100%;
 }
 body{
+	margin: 0;
   	background-image: url(Background.jpg);
 }
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  	display: block;
+}
 h1 {
-		background-color:rgba(0, 0, 0, 0.8);
-    color: silver;
-    font-size: 75px;
-    text-align: center;
+	display: block;
+	background-color:rgba(0, 0, 0, 0.8);
+	color: silver;
+	font-size: 75px;
+	text-align: center;
 }
 p {
-		background-color:rgba(0, 0, 0, 0.8);
-		color: #2962FF;
+	display: block;
+	background-color:rgba(0, 0, 0, 0.8);
+	color: #2962FF;
   	font-size: 40px;
   	text-align: left;
 }
 h2 {
-		background-color:rgba(0, 0, 0, 0.8);
-    color: silver;
-    font-size: 50px;
-    text-align: left;
+	display: block;
+	background-color:rgba(0, 0, 0, 0.8);
+	color: silver;
+	font-size: 50px;
+	text-align: left;
 }
 p1 {
-		background-color:rgba(0, 0, 0, 0.8);
-		color: #2962FF;
+	display: block;
+	background-color:rgba(0, 0, 0, 0.8);
+	color: #2962FF;
   	font-size: 30px;
   	text-align: left;
 }
