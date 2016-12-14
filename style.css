@@ -28,6 +28,8 @@ summary {
   	display: block;
 }
 h1 {
+	position: relative;
+  	font-size: 75%;
 	display: block;
 	background-color:rgba(0, 0, 0, 0.8);
 	color: silver;
@@ -35,6 +37,8 @@ h1 {
 	text-align: center;
 }
 p {
+	position: relative;
+	font-size: 75%;
 	display: block;
 	background-color:rgba(0, 0, 0, 0.8);
 	color: #2962FF;
@@ -42,6 +46,8 @@ p {
   	text-align: left;
 }
 h2 {
+	position: relative;
+	font-size: 75%;
 	display: block;
 	background-color:rgba(0, 0, 0, 0.8);
 	color: silver;
@@ -49,6 +55,8 @@ h2 {
 	text-align: left;
 }
 p1 {
+	position: relative;
+	font-size: 75%;
 	display: block;
 	background-color:rgba(0, 0, 0, 0.8);
 	color: #2962FF;
