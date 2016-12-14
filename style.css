@@ -9,7 +9,7 @@ html {
 }
 body{
 	margin: 0;
-  	background-image: url(Background.jpg);
+  	background-image: url(Background.jpg) bgproperties="fixed";
 }
 }
 article,
