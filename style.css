@@ -1,7 +1,7 @@
 * { margin: 0; padding: 0; }
 
 html {
-  background: url(Background-min.jpg) repeat-y center fixed;
+  background: url(http://wallpapercave.com/wp/TSlZ57J.jpg) repeat-y center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -12,6 +12,7 @@ html {
   background: url(paper.jpg); -moz-box-shadow: 0 0 40px gold;
   -webkit-box-shadow: 0 0 40px gold; box-shadow: 0 0 40px gold; }
 img.profile_photo { display: block; margin: 0px auto; border: "5"; }
+img.icons { display: block; margin: 0px auto; }
 h1 { font: 70px auto Georgia, Serif; margin: 0px 0 10px 0; text-align: center; }
 h2 { font: 35px/2 auto Georgia, Serif; margin: 0px 0 0px 0; margin-left: 10px; }
 p  { font: 25px auto Georgia, Serif; margin: 0px 0 -10px 0; margin-left: 25px; }
