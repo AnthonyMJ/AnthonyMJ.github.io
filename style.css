@@ -15,10 +15,10 @@ img.profile_photo { display: block; margin: 0px auto; border: "5"; }
 h1 { font: 70px auto Georgia, Serif; margin: 0px 0 10px 0; text-align: center; }
 h2 { font: 35px/2 auto Georgia, Serif; margin: 0px 0 0px 0; margin-left: 10px; }
 p  { font: 25px auto Georgia, Serif; margin: 0px 0 -10px 0; margin-left: 25px; }
-nav{ float: left; max-width: 200px; margin: 0; margin-top: 10px; border-top: 2px solid black; }
-nav h3{ list-style-type: none; text-decoration: none; margin-bottom: 5px; text-align: center; }
-nav ul { list-style-type: circle; padding: 0; }
-nav ul a { list-style-type: circle; text-decoration: underline; text-align: left; }
+nav{ float: left; max-width: 200px; margin: 0; margin-top: 10px; border-top: 2px solid black; font: 20px; }
+nav h3{ font-size: 20px; list-style-type: none; text-decoration: none; margin-bottom: 5px; text-align: center; }
+nav ul { font-size: 20px; list-style-type: circle; padding: 0; }
+nav ul a { font-size: 20px; list-style-type: circle; text-decoration: underline; text-align: left; }
 article { margin-left: 200px; margin-top: 10px; border-left: 2px solid black; border-top: 2px solid black; padding: 1em; overflow: hidden; }
 .right{ float: right; width: 280px; height: 280px; margin: 0; border: 3px solid green; background: rgba(0, 0, 0, .85); padding: 10px;  }
 .left { float: left; width: 150px; border: 3px solid #FFA500; background: rgba(0, 0, 0, .85); padding: 10px; }
