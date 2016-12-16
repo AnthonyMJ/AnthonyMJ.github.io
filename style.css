@@ -9,7 +9,7 @@ html {
 }
 
 #page-wrap { max-width: 1200px; margin: 20px auto; margin-bottom: 50px; padding: 10px; border: 4px solid yellow;
-  background: url(Main.jpg); background-size: 100%; -moz-box-shadow: 0 0 40px gold;
+  background: url(Main.jpg); background-size: 120%; -moz-box-shadow: 0 0 40px gold;
   -webkit-box-shadow: 0 0 40px gold; box-shadow: 0 0 40px gold; overflow: hidden;}
 
 #page-wrap.NYC { max-width: 1200px; margin: 100px auto; margin-bottom: 250px; padding: 10px; border: 4px solid yellow;
@@ -25,9 +25,17 @@ img.icons { display: block; margin: 0px auto; }
 
 div.containerMain { float: center; width: 35%; margin: 0 auto; align-content: center; }
 
+div.Contact {width: 50%; margin-top: 20px; padding-left: 30px; border: 4px solid darkgrey; background-color: black }
+ul.Contact { margin-left: 30px; color: white; list-style-type: circle; padding: 0; background-color: black}
+ul.contact > li { color: white; }
+ul.Contact li { float left; }
+ul.contact li a { margin-left: 0px; color: white; display: block; text-align: left; }
+ul.contact li ul { margin-left: 20px; }
+
 h1 { display: block; font: 70px auto Georgia, Serif; margin: 0px 0 10px 0; background: rgba(255, 255, 255, 0.5); text-align: center; }
 h2 { font: 35px/2 auto Georgia, Serif; margin: 0px 0 0px 0; margin-left: 0px; }
 h2.extra { margin-top: 40px; }
+h5 {font-size: 30px; display: block; color: white; background-color: black; text-align: left;}
 
 p  { font-size: 25px; margin: 0px 0 -10px 0; margin-left: 25px; }
 
@@ -53,7 +61,7 @@ ul.horiz li { float: left; }
 ul.horiz li a { display: block; color: white; text-align: center; margin-left: 25px; border-left: 4px solid darkgrey; border-right: 4px solid darkgrey; padding: 14px 16px; text-decoration: none; }
 ul.horiz li a:hover { background-color: #25383C; filter: opacity(0.5); }
 
-nav{ float: left; max-width: 200px; height: 100% margin: 0; margin-top: 0px; border-top: 0; border-bottom: 2px solid silver; border-right: 2px solid silver; background: black; font: 20px; overflow:hidden; }
+nav{ float: left; max-width: 200px; height: 100%; margin: 0; margin-top: 0px; border-top: 0; border-bottom: 2px solid silver; border-right: 2px solid silver; background: black; font: 20px; overflow:hidden; }
 nav h3{ display: block;  font-size: 170%; list-style-type: none; text-decoration: none; margin-bottom: 0px; text-align: center; border-top: 10px solid black; background-color: black; color: white; }
 nav h3:hover { background-color: black; filter: opacity(1); }
 nav ul { list-style-type: none; padding: 0; }
