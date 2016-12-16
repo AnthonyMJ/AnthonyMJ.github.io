@@ -16,7 +16,7 @@ img.icons { display: block; margin: 0px auto; }
 h1 { font: 70px auto Georgia, Serif; margin: 0px 0 10px 0; text-align: center; }
 h2 { font: 35px/2 auto Georgia, Serif; margin: 0px 0 0px 0; margin-left: 0px; }
 p  { margin: 0px 0 -10px 0; margin-left: 25px; }
-p li { list-style-type: circle; font: 25px auto Georgia, Serif; }
+p li { font: 25px auto Georgia, Serif; list-style-type: circle; }
 nav{ float: left; max-width: 200px; margin: 0; margin-top: 10px; border-top: 2px solid black; font: 20px; }
 nav h3{ font-size: 20px; list-style-type: none; text-decoration: none; margin-bottom: 5px; text-align: center; }
 nav ul { font-size: 20px; list-style-type: circle; padding: 0; }
