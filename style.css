@@ -95,7 +95,7 @@ footer { font-size: 20px; text-align: center; border-top: 10px solid white; back
 /*--[Mobile styles under here]------------------------------------------------------------------------------*/
 
 @media only screen and (max-width: 800px){
-html {
+body {
   background: url(MBackground.jpg) center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
