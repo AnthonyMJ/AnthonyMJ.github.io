@@ -16,11 +16,11 @@ img.icons { display: block; margin: 0px auto; }
 h1 { font: 70px auto Georgia, Serif; margin: 0px 0 10px 0; text-align: center; }
 h2 { font: 35px/2 auto Georgia, Serif; margin: 0px 0 0px 0; margin-left: 0px; }
 p  { font-size: 25px; margin: 0px 0 -10px 0; margin-left: 25px; }
-p ul { font-size: 25px; list-style-type: circle; }
+ul.article { font-size: 25px; list-style-type: circle; text-decoration: none; text-align: left; margin-left: 20px; }
 nav{ float: left; max-width: 200px; margin: 0; margin-top: 10px; border-top: 2px solid black; font: 20px; }
-nav h3{ font-size: 20px; list-style-type: none; text-decoration: none; margin-bottom: 5px; text-align: center; }
-nav ul { font-size: 20px; list-style-type: circle; padding: 0; }
-nav ul a { font-size: 20px; list-style-type: circle; text-decoration: underline; text-align: left; }
+nav h3{ display: block;  font-size: 40px; list-style-type: none; text-decoration: none; margin-bottom: 5px; text-align: center; background-color: black; color: white; }
+nav ul { font-size: 20px; list-style-type: none; padding: 0; }
+nav ul a { display: block; font-size: 30px; list-style-type: none; text-decoration: none; text-align: center; }
 article { margin-left: 200px; margin-top: 10px; border-left: 2px solid black; border-top: 2px solid black; padding: 1em; overflow: hidden; }
 .right{ float: right; width: 380px; height: 460px; margin: 0; border: 5px solid green; background: rgba(0, 0, 0, .85); padding: 10px;  }
 .left { float: left; width: 380px; height:460px; border: 5px solid orange; background: rgba(0, 0, 0, .85); padding: 0px; }
