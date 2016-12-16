@@ -1,28 +1,13 @@
-
-
+/*--[normal CSS styles]----------------------------------------------------------------*/
 
 * { margin: 0; padding: 0; }
 
-
-
 html {
-background: url(MBackground.jpg) center fixed;
+background: url(Background.jpg) center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover; }
-
-
-@media only screen and (min-width: 800px){
-html {
-  background: url(Background.jpg) center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-}
-
 
 #page-wrap { max-width: 1200px; margin: 20px auto; margin-bottom: 10px; padding: 10px; border: 4px solid yellow;
   background: url(Main.jpg); background-size: 120%; -moz-box-shadow: 0 0 40px gold;
@@ -106,3 +91,15 @@ footer { font-size: 20px; text-align: center; border-top: 10px solid white; back
 .scroll ul li a { display: block; }
 
 .thanks { float: right; width: 25%; height: 0px; margin-left: 20px;}
+
+/*--[Mobile styles under here]------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 800px){
+html {
+  background: url(MBackground.jpg) center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+}
