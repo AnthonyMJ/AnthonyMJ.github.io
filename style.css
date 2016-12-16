@@ -8,7 +8,7 @@ background: url(MBackground.jpg) repeat-y center fixed;
 background-size: cover; }
 
 
-@media only screen and (min-width: 800px){
+@media only screen and (min-width: 1000px){
 html {
   background: url(Background.jpg) repeat-y center fixed;
   -webkit-background-size: cover;
