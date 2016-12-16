@@ -1,3 +1,6 @@
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
 * { margin: 0; padding: 0; }
 
 html {
@@ -8,7 +11,7 @@ background: url(MBackground.jpg) repeat-y center fixed;
 background-size: cover; }
 
 
-@media only screen and (min-width: 1000px){
+@media only screen only (min-width: 600px){
 html {
   background: url(Background.jpg) repeat-y center fixed;
   -webkit-background-size: cover;
