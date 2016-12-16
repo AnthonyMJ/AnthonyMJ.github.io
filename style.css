@@ -11,24 +11,24 @@
     background-size: cover;
   }
 
-  #page-wrap { width: 95%; margin: 0px auto; margin-top: 20px; margin-bottom: 100px; padding: 0; border: 1px solid yellow;
+  #page-wrap { width: 92%; margin: 0px auto; margin-top: 20px; margin-bottom: 100px; padding: 0; border: 1px solid yellow;
     background: url(MMain.jpg); background-size: 120%; overflow: hidden;}
 
-  #page-wrap.NYC { width: 95%; margin: 0px auto; margin-bottom: 40px; padding: 0; border: 1px solid lightgreen;
+  #page-wrap.NYC { width: 92%; margin: 0px auto; margin-bottom: 40px; padding: 0; border: 1px solid lightgreen;
     background: url(Mbeach.jpeg); background-size: 100%;  overflow: hidden;}
 
-  #page-wrap.UB { width: 95%; margin: 0px auto; margin-top: 250px; padding: 0; border: 1px solid white;
+  #page-wrap.UB { width: 92%; margin: 0px auto; margin-top: 250px; padding: 0; border: 1px solid white;
     background: url(UB.jpg); background-size: 100%; overflow: hidden;}
 
-  #page-wrap.Versus { width: 95%; margin: 0px auto; margin-top: 40px; margin-bottom: 30px; padding: 0; border: 1px solid yellow;
+  #page-wrap.Versus { width: 92%; margin: 0px auto; margin-top: 40px; margin-bottom: 30px; padding: 0; border: 1px solid yellow;
     background: url(Versus.jpg); background-size: 60%; overflow: hidden;}
 
-  #page-wrap.Youtube { width: 95%; margin: 0px auto; margin-bottom: 50px; padding: 0px; border: 1px solid red;
+  #page-wrap.Youtube { width: 92%; margin: 0px auto; margin-bottom: 50px; padding: 0px; border: 1px solid red;
     background: url(youtube.jpg); background-size: 120%; overflow: hidden;}
 
     header.video { display: block; font-size: 15px; text-align: center; border-bottom: .5px solid darkgrey; color: white; }
     div.video { width: 90%; height: 160px; margin-left: 5%; margin-top: 0px; border-left: 0; border-top: 0; padding: 0; overflow: hidden; }
-    article.video { margin-right: 0; padding: 0; background: none; }
+    article.video { margin-right: 0; padding: 0; background: none; overflow-x: hidden;}
 
 
   img.profile_photo { display: block; margin: 0px auto; border: 5px solid #00FFFF; }
