@@ -73,6 +73,7 @@
 
   ul.Top { font-size: 8px; list-style-type: none; margin: 0; padding: 1px; padding-left: 1px; overflow: hidden; background-color: black; }
   ul.Top li { float: left; }
+  ul.Top li.adj { margin-left: -20px; }
   ul.Top li a { display: block; color: white; text-align: left; margin-left: 2px; border-left: 1px solid darkgrey; border-right: 1px solid darkgrey; padding: 0; text-decoration: none; }
   ul.Top li a:hover { background-color: #25383C; filter: opacity(0.5); }
 
@@ -189,6 +190,7 @@ header.Top, footer.Top { font-size: 40px; text-align: center; border-top: 10px s
 
 ul.Top { font-size: 30px; list-style-type: none; margin: 0; padding: 30px; padding-left: 50px; overflow: hidden; background-color: black; }
 ul.Top li { float: left; }
+ul.Top li.adj { margin-left: 200px; }
 ul.Top li a { display: block; color: white; text-align: left; margin-left: 40px; border-left: 4px solid darkgrey; border-right: 4px solid darkgrey; padding: 0; text-decoration: none; }
 ul.Top li a:hover { background-color: #25383C; filter: opacity(0.5); }
 
