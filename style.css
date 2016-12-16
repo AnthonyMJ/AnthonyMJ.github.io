@@ -8,21 +8,55 @@ html {
   background-size: cover;
 }
 
-#page-wrap { max-width: 1200px; margin: 150px auto; padding: 20px; border: 4px solid yellow;
-  background: url(paper.jpg); -moz-box-shadow: 0 0 40px gold;
+#page-wrap { max-width: 1200px; margin: 100px auto; margin-bottom: 50px; padding: 10px; border: 4px solid yellow;
+  background: url(paper.jpg); background-size: 50%; -moz-box-shadow: 0 0 40px gold;
   -webkit-box-shadow: 0 0 40px gold; box-shadow: 0 0 40px gold; }
+
+#page-wrap.NYC { max-width: 1200px; margin: 100px auto; margin-bottom: 1000px; padding: 10px; border: 4px solid yellow;
+  background: url(paper.jpg); background-size: 50%; -moz-box-shadow: 0 0 40px gold;
+  -webkit-box-shadow: 0 0 40px gold; box-shadow: 0 0 40px gold; }
+
 img.profile_photo { display: block; margin: 0px auto; border: 5px solid #00FFFF; }
 img.icons { display: block; margin: 0px auto; }
+
 h1 { font: 70px auto Georgia, Serif; margin: 0px 0 10px 0; text-align: center; }
 h2 { font: 35px/2 auto Georgia, Serif; margin: 0px 0 0px 0; margin-left: 0px; }
+h2.extra { margin-top: 40px; }
+
 p  { font-size: 25px; margin: 0px 0 -10px 0; margin-left: 25px; }
+
 ul.article { font-size: 150%; list-style-type: circle; text-decoration: none; text-align: left; margin-left: 20px; }
+
+div.containerT { width: 100%;  border-bottom: 4px solid darkgray; }
+
+div.containception { width: 100%; align-content: center; }
+
+header.Top, footer.Top { font-size: 40px; text-align: center; border-top: 10px solid black; background-color: black; color: white; }
+
+ul.Top { font-size: 30px; list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: black; }
+ul.Top li { float: left; }
+ul.Top li a { display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none; }
+ul.Top li a:hover {}
+
+div.containerH { width: 100%; margin-top: 40px;  border: 4px solid darkgray; }
+
+header.horiz, footer.horiz { font-size: 40px; text-align: center; border-top: 10px solid black; background-color: black; color: white; }
+
+ul.horiz { font-size: 30px; list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: black; }
+ul.horiz li { float: left; }
+ul.horiz li a { display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none; }
+ul.horiz li a:hover {}
+
 nav{ float: left; max-width: 200px; margin: 0; margin-top: 40px; border-top: 10px solid silver; border-bottom: 2px solid silver; font: 20px; }
-nav h3{ display: block;  font-size: 40px; list-style-type: none; text-decoration: none; margin-bottom: 0px; text-align: center; background-color: black; color: white; }
+nav h3{ display: block;  font-size: 40px; list-style-type: none; text-decoration: none; margin-bottom: 0px; text-align: center; border-top: 10px solid black; background-color: black; color: white; }
 nav ul { font-size: 20px; list-style-type: none; padding: 0; }
-nav ul a { display: block; font-size: 30px; margin-bottom: 0px; list-style-type: none; text-decoration: none; text-align: center; background-color: black; color: white; }
+nav ul.blank { display: block; font-size: 30px; margin-bottom: 0px; list-style-type: none; text-decoration: none; text-align: center; border-top: 10px solid black; background-color: black; color: black; }
+nav ul a { display: block; font-size: 30px; margin-bottom: 0px; list-style-type: none; text-decoration: none; text-align: center; border-top: 10px solid black; background-color: black; color: white; }
 nav ul a:hover { background-color: #25383C; filter: opacity(0.5); }
+
 article { width: 80% auto; margin-left: 200px; margin-top: 40px; border-left: 2px solid silver; border-top: 10px solid silver; padding: 1em; overflow: hidden; }
+
 .right{ float: right; width: 30%; height: 380px; margin-bottom: 20px; border: 5px solid green; background: rgba(0, 0, 0, .85); padding: 10px;  }
+
 .left { float: left; width: 20%; height:50%; border: 5px solid orange; background: rgba(0, 0, 0, .85); padding: 0px; }
 .left img:hover{ opacity: 0.5; filter: alpha(opacity=50); }
