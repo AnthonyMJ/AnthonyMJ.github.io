@@ -22,6 +22,6 @@ nav h3{ display: block;  font-size: 40px; list-style-type: none; text-decoration
 nav ul { font-size: 20px; list-style-type: none; padding: 0; }
 nav ul a { display: block; font-size: 30px; margin-bottom: 5px; list-style-type: none; text-decoration: none; text-align: center; }
 article { margin-left: 200px; margin-top: 40px; border-left: 2px solid black; border-top: 2px solid black; padding: 1em; overflow: hidden; }
-.right{ float: right; width: 30%; height: 380px; margin: 0; border: 5px solid green; background: rgba(0, 0, 0, .85); padding: 10px;  }
+.right{ float: right; width: 30%; height: 380px; margin-bottom: 20px; border: 5px solid green; background: rgba(0, 0, 0, .85); padding: 10px;  }
 .left { float: left; width: 20%; height:50%; border: 5px solid orange; background: rgba(0, 0, 0, .85); padding: 0px; }
 .left img:hover{ opacity: 0.5; filter: alpha(opacity=50); }
