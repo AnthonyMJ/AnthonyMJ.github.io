@@ -9,21 +9,23 @@ html {
 }
 
 #page-wrap { max-width: 1200px; margin: 20px auto; margin-bottom: 50px; padding: 10px; border: 4px solid yellow;
-  background: url(paper.jpg); background-size: 50%; -moz-box-shadow: 0 0 40px gold;
+  background: url(Main.jpg); background-size: 100%; -moz-box-shadow: 0 0 40px gold;
   -webkit-box-shadow: 0 0 40px gold; box-shadow: 0 0 40px gold; overflow: hidden;}
 
-#page-wrap.NYC { max-width: 1200px; margin: 100px auto; margin-bottom: 550px; padding: 10px; border: 4px solid yellow;
+#page-wrap.NYC { max-width: 1200px; margin: 100px auto; margin-bottom: 250px; padding: 10px; border: 4px solid yellow;
   background: url(beach.jpg); background-size: 100%; -moz-box-shadow: 0 0 40px gold;
   -webkit-box-shadow: 0 0 40px gold; box-shadow: 0 0 40px gold; overflow: hidden;}
 
-  #page-wrap.UB { max-width: 1200px; margin: 100px auto; margin-top: 550px; padding: 10px; border: 4px solid yellow;
+  #page-wrap.UB { max-width: 1200px; margin: 100px auto; margin-top: 850px; padding: 10px; border: 4px solid yellow;
     background: url(UB.jpg); background-size: 100%; -moz-box-shadow: 0 0 40px gold;
     -webkit-box-shadow: 0 0 40px gold; box-shadow: 0 0 40px gold; overflow: hidden;}
 
 img.profile_photo { display: block; margin: 0px auto; border: 5px solid #00FFFF; }
 img.icons { display: block; margin: 0px auto; }
 
-h1 { font: 70px auto Georgia, Serif; margin: 0px 0 10px 0; text-align: center; }
+div.containerMain { float: center; width: 35%; margin: 0 auto; align-content: center; }
+
+h1 { display: block; font: 70px auto Georgia, Serif; margin: 0px 0 10px 0; background: rgba(255, 255, 255, 0.5); text-align: center; }
 h2 { font: 35px/2 auto Georgia, Serif; margin: 0px 0 0px 0; margin-left: 0px; }
 h2.extra { margin-top: 40px; }
 
@@ -51,18 +53,19 @@ ul.horiz li { float: left; }
 ul.horiz li a { display: block; color: white; text-align: center; margin-left: 25px; border-left: 4px solid darkgrey; border-right: 4px solid darkgrey; padding: 14px 16px; text-decoration: none; }
 ul.horiz li a:hover { background-color: #25383C; filter: opacity(0.5); }
 
-nav{ float: left; max-width: 200px; height: 100% margin: 0; margin-top: 0px; border-top: 0; border-bottom: 2px solid silver; background: black; font: 20px; overflow:hidden; }
+nav{ float: left; max-width: 200px; height: 100% margin: 0; margin-top: 0px; border-top: 0; border-bottom: 2px solid silver; border-right: 2px solid silver; background: black; font: 20px; overflow:hidden; }
 nav h3{ display: block;  font-size: 170%; list-style-type: none; text-decoration: none; margin-bottom: 0px; text-align: center; border-top: 10px solid black; background-color: black; color: white; }
+nav h3:hover { background-color: black; filter: opacity(1); }
 nav ul { list-style-type: none; padding: 0; }
 nav ul.blank { display: block; font-size: 250%; margin-bottom: 0px; list-style-type: none; text-decoration: none; text-align: center; border-top: 10px solid black; background-color: black; color: black; }
 nav ul a { display: block; font-size: 140%; margin-bottom: 0px; list-style-type: none; text-decoration: none; text-align: center; border-top: 10px solid black; background-color: black; color: white; }
 nav ul a:hover { background-color: #25383C; filter: opacity(0.5); }
 
-article { width: 80% auto; margin-left: 200px; margin-top: 0px; border-left: 2px solid silver; border-top: 0; padding: 1em; overflow: hidden; }
+article { width: 80% auto; margin-left: 200px; margin-top: 0px; border-left: 0; border-top: 0; padding: 1em; overflow: hidden; }
 
 .right{ float: right; width: 30%; height: 380px; margin-bottom: 20px; border: 5px solid green; background: rgba(0, 0, 0, .85); padding: 10px;  }
 
-.left { float: left; width: 20%; height:50%; border: 5px solid orange; background: rgba(0, 0, 0, .85); padding: 0px; }
+.left { text-align: center; font-size: 150%; color: white; float: left; width: 20%; height:50%; margin-top: 20px; border: 5px solid orange; background: rgba(0, 0, 0, .55); padding: 0px; }
 .left img:hover{ opacity: 0.5; filter: alpha(opacity=50); }
 
 .scroll {  width: 10%; height:50%; border: 5px solid black; background: rgba(0, 0, 0, .25); padding: 0px; }
