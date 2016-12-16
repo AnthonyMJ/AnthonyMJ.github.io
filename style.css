@@ -3,13 +3,7 @@
 @media only screen and (max-width: 800px){
   * { margin: 0; padding: 0; }
 
-  body {
-    background: url(MBackground.jpg) center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
+  body { background: url(MBackground.jpg) top fixed; background-size: 100%; }
 
   #page-wrap { width: 92%; margin: 0px auto; margin-top: 20px; margin-bottom: 100px; padding: 0; border: 1px solid yellow;
     background: url(MMain.jpg); background-size: 120%; overflow: hidden;}
