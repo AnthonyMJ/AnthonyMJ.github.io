@@ -11,17 +11,17 @@ html {
 #page-wrap { max-width: 1200px; margin: 150px auto; padding: 20px; border: 4px solid yellow;
   background: url(paper.jpg); -moz-box-shadow: 0 0 40px gold;
   -webkit-box-shadow: 0 0 40px gold; box-shadow: 0 0 40px gold; }
-img.profile_photo { display: block; margin: 0px auto; border: 5px solid black; }
+img.profile_photo { display: block; margin: 0px auto; border: 5px solid #00FFFF; }
 img.icons { display: block; margin: 0px auto; }
 h1 { font: 70px auto Georgia, Serif; margin: 0px 0 10px 0; text-align: center; }
 h2 { font: 35px/2 auto Georgia, Serif; margin: 0px 0 0px 0; margin-left: 0px; }
-p  { margin: 0px 0 -10px 0; margin-left: 25px; }
-p li { font: 25px auto Georgia, Serif; list-style-type: circle; }
+p  { font-size: 25px; margin: 0px 0 -10px 0; margin-left: 25px; }
+p ul { font-size: 25px; list-style-type: circle; }
 nav{ float: left; max-width: 200px; margin: 0; margin-top: 10px; border-top: 2px solid black; font: 20px; }
 nav h3{ font-size: 20px; list-style-type: none; text-decoration: none; margin-bottom: 5px; text-align: center; }
 nav ul { font-size: 20px; list-style-type: circle; padding: 0; }
 nav ul a { font-size: 20px; list-style-type: circle; text-decoration: underline; text-align: left; }
 article { margin-left: 200px; margin-top: 10px; border-left: 2px solid black; border-top: 2px solid black; padding: 1em; overflow: hidden; }
-.right{ float: right; width: 280px; height: 280px; margin: 0; border: 3px solid green; background: rgba(0, 0, 0, .85); padding: 10px;  }
-.left { float: left; width: 150px; border: 3px solid #FFA500; background: rgba(0, 0, 0, .85); padding: 10px; }
+.right{ float: right; width: 380px; height: 460px; margin: 0; border: 5px solid green; background: rgba(0, 0, 0, .85); padding: 10px;  }
+.left { float: left; width: 380px; height:460px; border: 5px solid orange; background: rgba(0, 0, 0, .85); padding: 0px; }
 .left img:hover{ opacity: 0.5; filter: alpha(opacity=50); }
